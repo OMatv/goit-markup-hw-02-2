@@ -10,10 +10,6 @@
     text-decoration: none;
 }
 
-.page-body {
-    color: #434455;
-}
-
 button {
     cursor: pointer;
     background: #4D5AE5;
@@ -41,8 +37,8 @@ span {
     letter-spacing: 0.02em;
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu-nav:hover,
+.menu-nav:focus {
     color: #404bbf;
 }
 
@@ -58,13 +54,11 @@ span {
     color: #434455;
 }
 
-body {
-   color: #434455;
-}
+
 
 .page-body {
     font-family: Roboto, sans-serif;
-    color: #2e2f42;
+    color:#434455;
     background-color: #FFF;
    }
 
