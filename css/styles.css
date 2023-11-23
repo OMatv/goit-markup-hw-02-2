@@ -10,9 +10,12 @@
     text-decoration: none;
 }
 
+body {
+    color: #434455;
+}
+
 button {
     cursor: pointer;
-    border-radius: 4px;
     background: #4D5AE5;
    }
 
@@ -26,8 +29,8 @@ button {
     text-transform: uppercase;
 }
 
-.span {
-    color: #2e2f42;
+span {
+    color:#2e2f42;
     }
 
 .menu-link {
@@ -72,6 +75,14 @@ body {
 
 .sect-title {
     background-color: #2e2f42;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .solutions-title {
@@ -139,7 +150,7 @@ body {
 .team-list-text {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02e;
+    letter-spacing: 0.02em;
     color: #434455;
 }
    
@@ -163,7 +174,7 @@ body {
 .portfolio-list-text {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02e;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -181,7 +192,7 @@ body {
     text-transform: uppercase;
 }
 
-.span {
+.span-studio {
     color: #f4f4fd;
 }
    
