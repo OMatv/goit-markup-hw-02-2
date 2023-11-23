@@ -10,7 +10,7 @@
     text-decoration: none;
 }
 
-body {
+.page-body {
     color: #434455;
 }
 
@@ -33,10 +33,10 @@ span {
     color:#2e2f42;
     }
 
-.menu-link {
+.menu-nav {
+    font-weight: 500;
     color: #2e2f42;
     font-size: 16px;
-    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -58,11 +58,6 @@ span {
     color: #434455;
 }
 
-.menu-link:hover,
-.menu-link:focus {
-    color: #404bbf;
-}
-
 body {
    color: #434455;
 }
@@ -78,9 +73,9 @@ body {
 }
 
 .section-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -108,12 +103,13 @@ body {
     background-color: #404BBF;
 }
 
-.section-title {
+.benefits-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
-    }
+    letter-spacing: 0.02em;
+}
 
 .benefits-list-text {
     font-size: 16px;
